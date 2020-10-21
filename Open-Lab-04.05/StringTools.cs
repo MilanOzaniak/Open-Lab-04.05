@@ -6,7 +6,18 @@ namespace Open_Lab_04._05
     {
         public string Repeat(string orig, int n)
         {
-            throw new NotImplementedException();
+            string str = ""; 
+            foreach (var a in orig)
+            { 
+                
+                for (int i = 0; i < n; i++)
+                {
+                    str += a;
+                }
+
+           
+            }
+            return str;
         }
     }
 }
